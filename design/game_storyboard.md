@@ -7,46 +7,42 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Giant Slayer! Defeat the Giant and save the city from destruction!
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The slumbering Giant of the mountains has awoken! In order to save the capital city from destruction, you must obtain the ancient scroll on how to defeat giants, a sword to fight the Giant, a shield to block the Giants attacks, a chest-plate to protect your body, a helmet to protect your head, and a potion to give you superhuman strength!
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
-
-Add more rooms if your design needs them.
+1. Start: Capital City
+2. East Village
+3. Desert
+4. Oasis
+5. West Village
+6. Temple
+7. Forest
+8. Boss area: Mountain
 
 ## Items
 
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Helmet
+2. Chestplate
+3. Sword
+4. Potion
+5. Ancient Scroll
+6. Shield
 
-If you add rooms beyond the minimum, add an item for every additional room
-except the start room and villain room.
+
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+The villain of the game is the Giant of the Mountain, who plans on destroying the capital City!
 
 ## Storyboard and Map Check
 
