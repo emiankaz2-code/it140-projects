@@ -7,19 +7,37 @@
 # Write pseudocode, not Python code. Use clear indentation and course-appropriate
 # keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
-# TODO 1: Identify the information the movement process needs.
-# Consider the player's current room and movement command.
+# TODO 1: DEFINE rooms:
+"Capital City": ("North": "Forest", "South": "Desert", "East": "East Village", "West": "West Village")
+"East Village": ("West": "Capital City", "item": "Helmet")
+"Desert": ("North": "Capital City", "East": "Oasis", "item": "Chestplate")
+"Oasis": ("West": "Desert", "item": "Sword")
+"West Village": ("East": Capital City", "South": "Temple", "item": "Potion")
+"Temple": ("North": "West Village", "item": "Ancient Scroll")
+"Forest": ("South": "Capital City", "East": "Mountain", "item": "Shield")
+"Mountain": ("West": "Forest")
 
-# TODO 2: Prompt for and receive the player's movement command.
 
-# TODO 3: Validate whether the requested movement is possible from the
-# current room. Show the decision clearly.
+# TODO 2: PRINT("You are in the" [current location])
+PRINT() move=INPUT("Enter your move:\n-->"'').title.split()
 
-# TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
+# TODO 3: IF move[0].lower() == "exit":
+PRINT("Game Over! Thanks For Playing!")
+IF len(move) >=2 and move [1] in location[current location].keys()
+current location = move between locations(current location, move[1], location)
+CONTINUE
 
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
 
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+# TODO 4: IF movement command = valid
+OUTPUT = PRINT("You are in" [new location])
+
+# TODO 5: IF movement command = invalid
+OUTPUT = PRINT("No location that direction, please try again!")
+
+# TODO 6: IF location = Mountain:
+inventory >= 5
+PRINT("You defeated the Giant! Congratulations!")
+ELSE:
+PRINT("You lose to the Giant, try collecting more items!")
+IF PRINT("Game Over"):
+PRINT("Attempt Another Battle?")
