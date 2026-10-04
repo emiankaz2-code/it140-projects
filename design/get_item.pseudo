@@ -9,22 +9,22 @@
 
 START get_item
 
-    # TODO 1: Identify the information the get-item process needs.
-    # Consider the current room, item in that room, and player's inventory.
+    # TODO 1: inventory = []
+IF location has an "item"
+PRINT("You see a" location item)
 
-    # TODO 2: Prompt for and receive the player's get-item command.
+    # TODO 2: IF len(move[0]) == 3 and move[0] = "Take" and ''.join(move[1:]) in location[current location]"item")
 
-    # TODO 3: Validate whether the requested item is available in the current
-    # room. Show the decision clearly.
+    # TODO 3: LIST:
+IF current location = item location
+INPUT = valid
 
-    # TODO 4: Describe what happens when the item request is valid.
-    # Include the inventory update and player output.
+    # TODO 4: PRINT(You've added" [location item] "to your inventory!")
 
-    # TODO 5: Describe what happens when the item request is invalid.
-    # Include the output the player should receive.
+    # TODO 5: PRINT("That item is not at this location. Check your inventory or another location!")
 
-    # TODO 6: Show how the process returns to or continues the larger gameplay
-    # loop after the command is handled.
+    # TODO 6: WHEN move to new location, SHOW [location item] IF possible. 
+IF len9move[0]) == 4 and move[1] = "Take" and ''.join(move[1:]) in location[new location]"item")
 
 END get_item
 
